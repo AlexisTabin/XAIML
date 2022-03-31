@@ -8,6 +8,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+To create a new app, you can run:
+
+### `npx create-react-app your_app_name`
+
 In the project directory, you can run:
 
 ### `npm start`
