@@ -1,7 +1,6 @@
 import './App.css';
-import {EyeCircle} from './Eye'
-import {Mouth} from './Mouth'
-import { BackgroundCircle } from './BackgoundCircle';
+
+import { Face } from './Face';
 
 const width = window.innerWidth;
 const height = window.innerHeight;
@@ -9,16 +8,24 @@ const centerX = width / 2;
 const centerY = height / 2;
 const eyeOffsetX = 90;
 const strokeWidth = 20;
+const eyeOffsetY = 100;
+const eyeRadius = 40;
+const mouthWidth = 50;
+const mouthRadius = 200;
 
 const App = () => (
-<svg width={width} height={height}>
-    <g transform={`translate(${centerX},${centerY})`}>
-      <BackgroundCircle radius={centerY - strokeWidth / 2} strokeWidth={strokeWidth}></BackgroundCircle>
-      <EyeCircle eyeOffsetX={eyeOffsetX}></EyeCircle>
-      <EyeCircle eyeOffsetX={-eyeOffsetX}></EyeCircle>
-      <Mouth></Mouth>
-    </g>
-  </svg>
+  <Face
+    width={width}
+    height={height}
+    centerX={centerX}
+    centerY={centerY}
+    eyeOffsetX={eyeOffsetX}
+    eyeOffsetY={eyeOffsetY}
+    eyeRadius={eyeRadius}
+    strokeWidth={strokeWidth}
+    mouthRadius={mouthRadius}
+    mouthWidth={mouthWidth}
+    ></Face>
 );
 
 export default App;

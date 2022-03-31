@@ -1,7 +1,4 @@
-const eyeOffsetY = 100;
-const eyeRadius = 40;
-
-export const EyeCircle = ({eyeOffsetX}) => (
+export const EyeCircle = ({eyeOffsetX, eyeOffsetY, eyeRadius}) => (
     <circle
       cx={-eyeOffsetX}
       cy={-eyeOffsetY}
