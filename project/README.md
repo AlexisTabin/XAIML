@@ -2,8 +2,6 @@
 
 ## Urban Project 1 - STEM Education Programs in Chicago
 
-[[_TOC_]]
-
 ## Team Members
 
 - [Clément Sicard](mailto:csicard@student.ethz.ch)
@@ -43,6 +41,7 @@ Ministry of Education of City of Chicago administration
 
 
 Specify here the structure of you code and comment what the most important files contain
+The code is hosted on gitlab.inf.ethz.ch [link](https://gitlab.inf.ethz.ch/COURSE-XAI-IML22/STEM-xai-iml22/-/blob/master/README.md)
 
 <details>
   <summary markdown="span"><b>Expand to see folder structure</b></summary>
